@@ -28,7 +28,7 @@ def prediction2():
 def prediction3():
     data3 = request.json  # Expecting JSON request
     features3 = np.array(data3['features'])  # Expects a list of features in the body
-    prediction3 = model2.predict([features3])
+    prediction3 = model3.predict([features3])
     return jsonify({'prediction': int(prediction3[0])})
 
 if __name__ == '__main__':
