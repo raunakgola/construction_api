@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 # Load the model
 model1 = joblib.load('Delay_model.pkl')
-model2 = joblib.load('Injury_model.pkl')
-model3 = joblib.load('Cost_Overrun_model.pkl')
+model2 = joblib.load('Cost_Overrun_model.pkl')
+model3 = joblib.load('Injury_model.pkl')
 
 @app.route('/delay_predict', methods=['GET' , 'POST'])
 def prediction1():
