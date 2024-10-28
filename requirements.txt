@@ -48,4 +48,5 @@ waitress==3.0.0
 Werkzeug==3.0.6
 wrapt==1.16.0
 yarl==1.16.0
+Flask[async]
 
