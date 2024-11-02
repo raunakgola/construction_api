@@ -39,7 +39,7 @@ Setup and Installation
     cmd:
 
     ```
-    git clone https://github.com/yourusername/construction_api.git
+    git clone https://github.com/raunakgola/construction_api.git
     cd construction_api
     ```
 
