@@ -38,10 +38,12 @@ Setup and Installation
 
     cmd:
 
-    ```git clone https://github.com/yourusername/construction_api.git```
+    ```
+    git clone https://github.com/yourusername/construction_api.git
+    ```
     ```cd construction_api```
 
-2.  **Install required packages**: Ensure you have Python installed, then install dependencies using:
+3.  **Install required packages**: Ensure you have Python installed, then install dependencies using:
 
     bash
 
@@ -49,7 +51,7 @@ Setup and Installation
 
     `pip install -r requirements.txt`
 
-3.  **Load the environment variables**: Create a `.env` file in the root directory with the following environment variables.
+4.  **Load the environment variables**: Create a `.env` file in the root directory with the following environment variables.
 
 Environment Variables
 ---------------------
