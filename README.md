@@ -36,12 +36,10 @@ Setup and Installation
 
 1.  **Clone the repository**:
 
-    bash
+    cmd:
 
-    Copy code
-
-    `git clone https://github.com/yourusername/construction_api.git
-    cd construction_api`
+    ```git clone https://github.com/yourusername/construction_api.git```
+    ```cd construction_api```
 
 2.  **Install required packages**: Ensure you have Python installed, then install dependencies using:
 
